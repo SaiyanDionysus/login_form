@@ -1152,19 +1152,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Golovtchenko.D.S\\.nuget\\packages\\": {}
+    "C:\\Users\\Denis\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Golovtchenko.D.S\\source\\repos\\loginform\\loginform\\loginform.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\source\\repos\\login_form\\loginform\\loginform.csproj",
       "projectName": "loginform",
-      "projectPath": "C:\\Users\\Golovtchenko.D.S\\source\\repos\\loginform\\loginform\\loginform.csproj",
-      "packagesPath": "C:\\Users\\Golovtchenko.D.S\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Golovtchenko.D.S\\source\\repos\\loginform\\loginform\\obj\\",
+      "projectPath": "C:\\Users\\Denis\\source\\repos\\login_form\\loginform\\loginform.csproj",
+      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Denis\\source\\repos\\login_form\\loginform\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Golovtchenko.D.S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1172,6 +1177,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1214,7 +1220,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

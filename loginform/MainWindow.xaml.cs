@@ -24,5 +24,15 @@ namespace loginform
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LoginScreen login = new LoginScreen();
+            login.Show();
+            if (login != null )
+            {
+                Close();
+            }
+        }
     }
 }
